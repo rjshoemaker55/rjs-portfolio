@@ -1,0 +1,70 @@
+.main-section {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.main-header {
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px #333333;
+}
+
+.secondary-header {
+  color: #333333;
+}
+
+#page-link-section {
+  background: rgb(250,201,102, .60);
+  padding: 10px 0px;
+  /* border: 1px rgb(255,255,255, .65) solid; */
+  border-radius: 5px;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 30px;
+  color: #311609;
+  box-shadow: 3px 3px #333333;
+}
+
+.page-link {
+  font-weight: bold;
+  background: rgb(135,206,250, .50);
+  width: 100%;
+  margin: auto;
+  padding: 40px 0px;
+  color: #333333;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px #333333;
+}
+
+.page-link:hover {
+  box-shadow: 1px 1px #333333;
+  background: rgb(254,126,11, .50);
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-section {
+    margin-top: 20px;
+  }
+  
+  #secondary-header {
+    color: white;
+  }
+  #page-link-section {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 15px 0px;
+  }
+
+  .page-link {
+    margin: 10px 0px;
+  }
+}
