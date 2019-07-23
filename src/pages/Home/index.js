@@ -8,7 +8,7 @@ class Home extends Component {
         <div className='row'>
           <div className='col-sm-12'>
           <h1 className='main-header'>Hello, I'm RJ.</h1>
-          <h3 className='secondary-header'>I create beautiful, responsive web applications with complex backend functionality.</h3>
+          <h3 className='secondary-header'>I create beautiful, responsive web applications with backend functionality.</h3>
           </div>
         </div>
         <div className='row' id='page-link-section'>

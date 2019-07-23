@@ -31,7 +31,7 @@ function Navi(props) {
         <Route path='/contact' exact component={Contact}/>
         </Router>
 
-      <Navbar fixed="bottom" id='bottom-nav' className="justify-content-center align-text-middle">
+      <Navbar sticky="bottom" id='bottom-nav' className="justify-content-center align-text-middle">
         RJ Shoemaker 2019 ©
       </Navbar>
 
