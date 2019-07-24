@@ -7,22 +7,11 @@ body, html {
   height: 100%;
 }
 
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-size: auto 100%;
-  }
-} */
-
-
-/* Sticky footer styles
--------------------------------------------------- */
 #root {
   font-family: 'Roboto Mono', monospace;
   height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
 }
 
-/* Wrapper for page content to push down footer */
 #wrap {
     min-height: 100%;
     height: auto !important;
@@ -35,7 +24,6 @@ body, html {
     background-position: center;
 }
 
-/* Set the fixed height of the footer here */
 #push,
 .footer {
     height: 71px;
@@ -44,14 +32,4 @@ body, html {
 #footer {
     background-color: #f5f5f5;
     height: 71px;
-}
-
-/* Lastly, apply responsive CSS fixes as necessary */
-@media (max-width: 767px) {
-    #footer {
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 }

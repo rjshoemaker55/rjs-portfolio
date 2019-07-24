@@ -3,16 +3,12 @@
   color: whitesmoke;
   /* border-bottom: 1px solid rgb(255,255,255, .65); */
 }
-
+ 
 #bottom-nav {
-  background: rgb(210,185,180, .55);
+  background: rgb(210,185,180);
   color: #191919;
   line-height: 1;
   height: 71px;
-  /* padding: 15px 0px; */
-  /* bottom: 0; */
-  /* position: absolute; */
-  width: 100%;
 }
 
 a.navbar-brand {
@@ -20,13 +16,28 @@ a.navbar-brand {
   font-weight: bold;
 }
 
-/* @media only screen and (max-width: 600px) {
-  #bottom-nav {
-  position: relative;
-  bottom: 0;
-  width: 100%;
+#react-button {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: darkgray;
+  border-radius: 5px;
+  box-shadow: 2px 2px #333333;
+  margin: 10px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#react-button:hover {
+  background: #333333;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #react-button {
+    white-space: nowrap
   }
-} */
+  
+}
 
 
 

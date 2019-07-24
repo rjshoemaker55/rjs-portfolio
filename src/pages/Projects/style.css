@@ -1,3 +1,7 @@
+#found-below {
+  display: none;
+}
+
 .carousel-cap {
   background: rgb(245,168,69);
   color: #333333;
@@ -32,9 +36,39 @@
   background: rgb(254,126,11, .50);
 }
 
+#projects-sec-header {
+  color: #ffffff;
+}
+
+.repo-links {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333333;
+  background: rgb(135,206,250);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px #333333;
+  margin: 10px;
+  white-space: nowrap;
+  display: block;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   .project-images {
     height: auto;
     width: auto;
+  }
+
+  .carousel-cap {
+    display: none;
+  }
+
+  #in-caption {
+    display: none;
+  }
+
+  #found-below{
+    display: inline;
   }
 }

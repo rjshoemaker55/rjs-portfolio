@@ -61,11 +61,6 @@ a:hover {
   margin: 10px;
 }
 
-.skill-card:hover {
-  background: gray;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 600px) {
   #main-section {
     margin-top: 20px;

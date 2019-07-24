@@ -14,7 +14,7 @@ import './style.css';
 function Navi(props) {
   return(
     <>
-    <div id="wrap">
+    <div id='wrap'>
       <Router>
           <Navbar collapseOnSelect id='top-nav' expand="lg" variant="dark">
             <Navbar.Brand as={Link} to="/">RJ Shoemaker</Navbar.Brand>
@@ -38,8 +38,11 @@ function Navi(props) {
           <div className="justify-content-left">
             RJ Shoemaker 2019 ©
           </div>
-          <div className="justify-content-right">
-            Created with React
+          <div className="ml-auto">
+            <a
+              href='https://www.github.com/rjshoemaker55/rjs-portfolio' 
+              target='_blank' 
+              id='react-button'>Created with React</a>
           </div>
         </Navbar>
       </div>

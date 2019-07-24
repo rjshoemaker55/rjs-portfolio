@@ -18,7 +18,13 @@ class Projects extends Component {
           <div className='row'>
             <div className='col-sm-12'>
               <h1 className='main-header'>Projects</h1>
-              <h3 className='secondary-header'>Click on a project to visit the deployed app. Repo links are in the caption.</h3>
+              <h3 
+                className='secondary-header' 
+                id='projects-sec-header'>
+                Click on a project to visit the deployed app. Repo links 
+                  <span id='in-caption'>are in the caption.</span>
+                  <span id='found-below'>can be found below.</span>
+              </h3>
             </div>
           </div>
           <div className='row'>
@@ -45,7 +51,15 @@ class Projects extends Component {
                     </Carousel.Caption>
                   </Carousel.Item>
               ))}
-              </Carousel>
+              </Carousel>  
+            </div>
+          </div>
+          <div clasName='row' id='repo-row'>
+            <div className='col-sm-12'>
+              <h1 className='main-header'>Repos</h1>
+              {this.state.projectList.map(project => (
+                <a href={project.repo} target='_blank' className='repo-links'>{project.title}</a>
+              ))}
             </div>
           </div>
         </div>
