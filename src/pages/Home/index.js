@@ -32,6 +32,22 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <div className='row' id='skills-section'>
+          <div className='col-sm-12'>
+            <h1 className='main-header'>My Skills</h1>
+            <span className='skill-card'>HTML</span>
+            <span className='skill-card'>CSS</span>
+            <span className='skill-card'>Javascript</span>
+            <span className='skill-card'>JQuery</span>
+            <span className='skill-card'>MongoDB</span>
+            <span className='skill-card'>Mongoose</span>
+            <span className='skill-card'>MySQL</span>
+            <span className='skill-card'>Sequelize</span>
+            <span className='skill-card'>Express</span>
+            <span className='skill-card'>Handlebars</span>
+            <span className='skill-card'>React</span>
+          </div>
+        </div>
       </div>
     )
   }

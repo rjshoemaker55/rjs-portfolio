@@ -8,9 +8,10 @@
   background: rgb(210,185,180, .55);
   color: #191919;
   line-height: 1;
-  padding: 15px 0px;
-  bottom: 0;
-  position: absolute;
+  height: 71px;
+  /* padding: 15px 0px; */
+  /* bottom: 0; */
+  /* position: absolute; */
   width: 100%;
 }
 
@@ -19,13 +20,13 @@ a.navbar-brand {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   #bottom-nav {
   position: relative;
   bottom: 0;
   width: 100%;
   }
-}
+} */
 
 
 

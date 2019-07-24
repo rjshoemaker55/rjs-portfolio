@@ -1,8 +1,7 @@
 .main-section {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-
 
 .main-header {
   color: whitesmoke;
@@ -18,9 +17,8 @@
 #page-link-section {
   background: rgb(250,201,102, .60);
   padding: 10px 0px;
-  /* border: 1px rgb(255,255,255, .65) solid; */
   border-radius: 5px;
-  margin-top: 80px;
+  margin-top: 40px;
   text-align: center;
   font-size: 30px;
   color: #311609;
@@ -47,6 +45,25 @@
 
 a:hover {
   text-decoration: none;
+}
+
+#skills-section {
+  display: inline-block;
+  margin-top: 40px;
+}
+.skill-card {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgb(211, 211, 211, .80);
+  border-radius: 5px;
+  box-shadow: 2px 2px #333333;
+  margin: 10px;
+}
+
+.skill-card:hover {
+  background: gray;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
